@@ -1,0 +1,48 @@
+.themes-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    margin-top: 1rem;
+}
+.themes-header h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.themes-container {
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-auto-rows: 20rem;
+    grid-gap: 3rem;
+    margin: 1rem 0 4rem 0;
+    justify-content: center;
+}
+
+.grid-item {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: #000;
+}
+
+.themes-picture {
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    background-color: aquamarine;
+}
+.themes-content {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.themes-content h3 {
+    font-size: 2.5rem;
+}

@@ -1,0 +1,68 @@
+/* ------- Normal ------------------------------------------- */
+.normal-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+    width: fit-content;
+    padding: 0.5rem 0.7rem;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    height: fit-content;
+    transition: 0.5s;
+}
+.normal-button a {
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+.normal-button span {
+    font-size: 1rem;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+.normal-button:hover {
+    background-color: #000;
+    cursor: pointer;
+}
+.normal-button a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.normal-button:hover span {
+    color: white;
+}
+
+
+/* ------- Inverted ------------------------------------------- */
+.normal-button-inverted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #000;
+    width: fit-content;
+    padding: 0.5rem 0.7rem;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+}
+.normal-button-inverted a {
+    text-decoration: none;
+    color: #fff;
+}
+.normal-button-inverted span {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.normal-button-inverted:hover {
+    background-color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.normal-button-inverted:hover span {
+    color: #000;
+    transition: 0.5s;
+}

@@ -1,0 +1,25 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 35%);
+    justify-content: center;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+.grid-item {
+    background-color: #fff;
+    padding: 2rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+input {
+    font-size: 1rem;
+    padding: 13px 8px;
+    margin: 5px 0;
+    border: 1px solid rgb(220, 220, 220);
+}
+input[type="number"] {
+    appearance: textfield;
+}

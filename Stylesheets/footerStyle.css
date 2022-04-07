@@ -1,0 +1,69 @@
+footer {
+    position: relative;
+    /* height: 100px; */
+    margin-top: -100px;
+    clear: both;
+}
+
+/* --------- Top ----------------------------------------------------------------------- */
+#top {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#topleft img {
+    width: 12%;
+    margin: 100px 20px 100px 150px;
+}
+
+#topleft {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+#quicklinks {
+    margin: 0 20px;
+}
+#quicklinks h3 {
+    color: grey;
+    font-size: clamp(0.7rem, 1.2vw, 1.5rem);
+    margin-bottom: 20px;
+}
+#quicklinks a, #quicklinks span {
+    color: grey;
+    text-decoration: none;
+    font-size: clamp(0.7rem, 1.1vw, 1.5rem);
+    margin-bottom: 15px;
+}
+#quicklinks a:hover {
+    text-decoration: underline;
+}
+
+
+
+#social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+#social div a img {
+    width: 6%;
+    margin: 5px;
+}
+
+
+#bottom {
+    background-color: rgb(20, 20, 20);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bottom span {
+    color: grey;
+    opacity: 0.6;
+    font-size: clamp(0.7rem, 0.8vw, 1.5rem);
+}

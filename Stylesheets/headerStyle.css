@@ -1,0 +1,84 @@
+/* ----- General ----------------------------------------------------------------- */
+header {
+    width: 100%;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ----- Left Logo Part ----------------------------------------------------------------- */
+#left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+#image {
+    margin-left: 20px;
+}
+#image img {
+    width: 80px;
+}
+#name {
+    margin-left: 20px;
+}
+#name span {
+    font-size: 40px;
+}
+#name span:first-child {
+    letter-spacing: 0.3rem;
+}
+
+
+/* ----- Right Part ----------------------------------------------------------------- */
+#right {
+    display: flex;
+    height: 100%;
+}
+
+
+/* ----- Nav ----------------------------------------------------------------- */
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+ul {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-right: 40px;
+}
+ul li {
+    margin: 0 20px;
+    padding: 0 10px;
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ----- Shoppingcart ----------------------------------------------------------------- */
+#shoppingcart {
+    width: 130px;
+    border-left: 1px solid rgba(92, 92, 92, 0.3);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shoppingcart span {
+    font-size: 35px;
+    color: black;
+}

@@ -1,0 +1,83 @@
+.products-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    margin-top: 1rem;
+}
+.products-header h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+}
+
+
+.motive-container {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    grid-auto-rows: 20rem;
+    grid-gap: 3rem;
+    margin: 1rem 0 4rem 0;
+    justify-content: center;
+}
+
+.grid-item {
+    background-color: #fff;
+    display: flex;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.motive-picture {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+.motive-picture img {
+    height: 100%;
+    width: 100%;
+}
+
+.motive-content {
+    width: 50%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid #000;
+    box-sizing: border-box;
+}
+.motive-content h3 {
+    margin-bottom: 1rem;
+}
+.price {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
+}
+.price-extras {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+
+.single-motive-footer-container {
+    display: flex;
+    flex-direction: column;
+}
+.single-motive-footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+}
+
+.normal-button-inverted {
+    margin-left: 1rem;
+}
+.normal-button-inverted span {
+    text-decoration: none;
+    color: #fff;
+}

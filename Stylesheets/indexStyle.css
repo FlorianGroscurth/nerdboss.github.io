@@ -1,0 +1,31 @@
+#image-slot {
+    width: 100%;
+    position: relative;
+    height: fit-content;
+    /* box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2); */
+}
+#image-slot img:first-child {
+    width: 100%;
+}
+#image-slot span {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%);
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(5, 5, 5);
+    letter-spacing: 1.2rem;
+}
+#image-slot #logo {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%);
+    width: 8%;
+    opacity: 95%;
+}
+
+
+
+

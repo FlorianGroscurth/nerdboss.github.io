@@ -1,0 +1,79 @@
+#signup-container {
+    margin: 100px auto;
+    background-color: #ffffff;
+    width: 39rem;
+    padding: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 27px;
+}
+h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 300;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+label {
+    font-weight: 600;
+}
+input {
+    font-size: 1rem;
+    padding: 13px 8px;
+    margin: 5px 0;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+#dtSchutz{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    margin-top: 20px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(92, 92, 92, 0.2);
+}
+#dtSchutz label {
+    margin-left: 15px;
+    font-weight: 300;
+}
+#dtSchutz label a {
+    color: black;
+}
+#dtSchutz input {
+    margin: 0 3px;
+    transform: scale(1.5);
+}
+#dtSchutz input:hover {
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    margin: 50px auto 30px auto;
+    border: none;
+    font-size: large;
+}
+button:hover {
+    cursor: pointer;
+}
+
+
+form p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+form p a {
+    color: black;
+    font-weight: 600;
+}

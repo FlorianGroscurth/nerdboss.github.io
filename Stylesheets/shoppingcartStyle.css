@@ -1,0 +1,157 @@
+
+#head {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+#head div {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+}
+#head h1 {
+    font-size: 2.5rem;
+}
+
+.grid-header {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+}
+.grid-header-item {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(170, 170, 170);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#cart-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 4rem 0;
+}
+#cart {
+    width: 70%;
+}
+.cart-items {
+    display: grid;
+    grid-auto-rows: 10rem;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+.grid-item:last-child {
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.dustbin {
+    display: flex;
+    justify-content: center;
+    transform: translate(-10%);
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None; 
+}
+.dustbin span {
+    transition: 0.2s;
+}
+.dustbin span:hover {
+    color: red;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.dustbin span:active {
+    color: red;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+
+.grid-item div {
+    display: flex;
+    align-items: center;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start !important;
+}
+.product h4 {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.product p {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.amount .normal-button {
+    padding: 0;
+    box-sizing: border-box;
+    border: 3px solid gray;
+}
+
+.normal-button form input {
+    border: none;
+    width: 4rem;
+    height: 2.2rem;
+    text-align: center;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+
+
+#shoppingcart-sum {
+    display: grid;
+    margin: 0 2rem;
+}
+.sum-elements {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: minmax(2rem, auto);
+    padding: 2rem 0;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+#sum-elements-versand span span {
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+}
+.sum-elements span{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.sum-elements span:last-child {
+    text-align: end;
+}
+
+#sum-elements-summe span span {
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+}
+
+#cart h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+#cart a {
+    margin-top: 2rem;
+}
+
+#cart-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem 0 2rem;
+}
+
+
+
+

@@ -1,0 +1,83 @@
+#login-container {
+    margin: 100px auto;
+    background-color: #ffffff;
+    width: 28rem;
+    padding: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 27px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+label {
+    font-weight: 700;
+}
+input {
+    font-size: 1rem;
+    padding: 13px 8px;
+    margin: 5px 0;
+    border: 1px solid rgb(220, 220, 220);
+}
+button {
+    width: 100%;
+    height: 50px;
+    margin: 50px auto 30px auto;
+    border: none;
+    font-size: large;
+}
+button:hover {
+    cursor: pointer;
+}
+
+#stayLI{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    margin-top: 10px;
+}
+#stayLI label {
+    margin-left: 15px;
+    font-weight: 300;
+}
+#stayLI input {
+    margin: 0 3px;
+    transform: scale(1.5);
+}
+#stayLI input:hover {
+    cursor: pointer;
+}
+
+form p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+form p a {
+    color: black;
+    font-weight: 600;
+}
+
+
+#echoNotLoggedIn {
+    background-color: #fff;
+    border-top: 3px solid rgb(180, 0, 0);
+    margin: 100px auto 0 auto;
+    padding: 0 20px;
+    min-height: 50px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
+#echoNotLoggedIn p {
+    font-size: 1.5rem;
+}
